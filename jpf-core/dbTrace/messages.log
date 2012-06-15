@@ -1,0 +1,220 @@
+2012-06-13 14:15:06.612+0200: Creating new db @ dbTrace/neostore
+2012-06-13 14:15:09.167+0200: Opened [dbTrace/nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2012-06-13 14:15:09.204+0200: TM new log: tm_tx_log.1
+2012-06-13 14:15:09.292+0200: --- CONFIGURATION START ---
+2012-06-13 14:15:09.292+0200: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1339589706624, id:-4967260765686643200, store version: 13561656364791302]
+2012-06-13 14:15:09.293+0200: Physical mem: 4031MB, Heap size: 896MB
+2012-06-13 14:15:09.296+0200: Kernel version: Neo4j - Graph Database Kernel 1.5.3
+2012-06-13 14:15:09.296+0200: Neo4j component versions:
+2012-06-13 14:15:09.296+0200: Store versions:
+2012-06-13 14:15:09.296+0200:   NeoStore v0.A.0
+2012-06-13 14:15:09.296+0200:   NodeStore v0.A.0
+2012-06-13 14:15:09.296+0200:   RelationshipStore v0.A.0
+2012-06-13 14:15:09.297+0200:   RelationshipTypeStore v0.A.0
+2012-06-13 14:15:09.297+0200:   PropertyStore v0.A.0
+2012-06-13 14:15:09.297+0200:   PropertyIndexStore v0.A.0
+2012-06-13 14:15:09.297+0200:   StringPropertyStore v0.A.0
+2012-06-13 14:15:09.297+0200:   ArrayPropertyStore v0.A.0
+2012-06-13 14:15:09.303+0200: Process id: 7240@mile-VirtualBox
+2012-06-13 14:15:09.303+0200: Operating System: Linux; version: 3.0.0-16-generic-pae; arch: i386; cpus: 4
+2012-06-13 14:15:09.304+0200: Max number of file descriptors: 4096
+2012-06-13 14:15:09.304+0200: Number of open file descriptors: 75
+2012-06-13 14:15:09.309+0200: Total Physical memory: 3.94 GB
+2012-06-13 14:15:09.309+0200: Free Physical memory: 653.23 MB
+2012-06-13 14:15:09.310+0200: Committed virtual memory: 1.14 GB
+2012-06-13 14:15:09.310+0200: Total swap space: 4.00 GB
+2012-06-13 14:15:09.310+0200: Free swap space: 4.00 GB
+2012-06-13 14:15:09.311+0200: Byte order: LITTLE_ENDIAN
+2012-06-13 14:15:09.311+0200: VM Name: Java HotSpot(TM) Server VM
+2012-06-13 14:15:09.311+0200: VM Vendor: Sun Microsystems Inc.
+2012-06-13 14:15:09.311+0200: VM Version: 20.6-b01
+2012-06-13 14:15:09.312+0200: JIT compiler: HotSpot Tiered Compilers
+2012-06-13 14:15:09.319+0200: Class Path:
+2012-06-13 14:15:09.319+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3jni-2-3-0.dll
+2012-06-13 14:15:09.319+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/hampi.jar
+2012-06-13 14:15:09.319+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/choco-solver-2.1.1-20100709.142532-2.jar
+2012-06-13 14:15:09.319+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/lib/scala-library.jar
+2012-06-13 14:15:09.319+0200:    [loader.0] file:/home/mile/workspace2/jpf-symbc/build/jpf-symbc.jar
+2012-06-13 14:15:09.319+0200:    [loader.2] file:/usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/ext/localedata.jar
+2012-06-13 14:15:09.319+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/charsets.jar
+2012-06-13 14:15:09.319+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/string.jar
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/STPJNI.jar
+2012-06-13 14:15:09.320+0200:    [loader.2] file:/usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/ext/sunjce_provider.jar
+2012-06-13 14:15:09.320+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-core/build/
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3jni.so.2.3.0
+2012-06-13 14:15:09.320+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-core/src/annotations/
+2012-06-13 14:15:09.320+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libSTPJNI.so
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/opt4j-2.2.jar
+2012-06-13 14:15:09.320+0200:    [loader.0] file:/home/mile/workspace2/jpf-core/build/jpf-annotations.jar
+2012-06-13 14:15:09.320+0200:    [loader.2] file:/usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/ext/sunpkcs11.jar
+2012-06-13 14:15:09.320+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/build/jpf-trace-server-with-shell.jar
+2012-06-13 14:15:09.320+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/build/
+2012-06-13 14:15:09.320+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/commons-math3-3.0.jar
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/aima-core.jar
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/coral.jar
+2012-06-13 14:15:09.320+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/iasolver.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/build/jpf-trace-server.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/build/jpf-trace-server-scala.jar
+2012-06-13 14:15:09.321+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libyices.so
+2012-06-13 14:15:09.321+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/org.sat4j.pb.jar
+2012-06-13 14:15:09.321+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/Statemachines.jar
+2012-06-13 14:15:09.321+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/org.sat4j.core.jar
+2012-06-13 14:15:09.321+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/src/annotations/
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/jung-api-2.0.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/colt-1.2.0.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/collections-generic-4.01.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/jung-graph-impl-2.0.jar
+2012-06-13 14:15:09.321+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/jung-algorithms-2.0.jar
+2012-06-13 14:15:09.321+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3.jar
+2012-06-13 14:15:09.321+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/jce.jar
+2012-06-13 14:15:09.321+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libgmp.10.dylib
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/yicesapijava.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/automaton.jar
+2012-06-13 14:15:09.322+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/sunrsasign.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-core/build/jpf.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-core/lib/junit-4.6.jar
+2012-06-13 14:15:09.322+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libYicesLite.so
+2012-06-13 14:15:09.322+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2012-06-13 14:15:09.322+0200:    [loader.0] file:/home/mile/workspace2/jpf-trace-server/lib/neo4j-kernel-1.5.3.jar
+2012-06-13 14:15:09.322+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/modules/jdk.boot.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3-2-3-0.dll
+2012-06-13 14:15:09.322+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/lib/jung-visualization-2.0.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/scale.jar
+2012-06-13 14:15:09.322+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/bcel.jar
+2012-06-13 14:15:09.322+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/commons-lang-2.4.jar
+2012-06-13 14:15:09.322+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/resources.jar
+2012-06-13 14:15:09.323+0200:    [classpath + loader.1] file:/home/mile/workspace2/jpf-symbc/lib/JSAP-2.1.jar
+2012-06-13 14:15:09.323+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/jsse.jar
+2012-06-13 14:15:09.323+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/rt.jar
+2012-06-13 14:15:09.323+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/choco-1_2_04.jar
+2012-06-13 14:15:09.323+0200:    [loader.2] file:/usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/ext/dnsns.jar
+2012-06-13 14:15:09.323+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3.so.2.3.0
+2012-06-13 14:15:09.323+0200:    [loader.0] file:/home/mile/workspace2/jpf-symbc/build/jpf-symbc-annotations.jar
+2012-06-13 14:15:09.323+0200:    [loader.0] file:/home/mile/workspace2/jpf-shell/build/jpf-shell.jar
+2012-06-13 14:15:09.323+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3.2.3.0.dylib
+2012-06-13 14:15:09.323+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/libcvc3jni.2.3.0.dylib
+2012-06-13 14:15:09.323+0200:    [loader.1] file:/home/mile/workspace2/jpf-symbc/lib/commons-math-1.2.jar
+2012-06-13 14:15:09.323+0200:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.31/jre/classes
+2012-06-13 14:15:09.323+0200: Library Path:
+2012-06-13 14:15:09.324+0200:   /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/i386/server
+2012-06-13 14:15:09.324+0200:   /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/i386
+2012-06-13 14:15:09.324+0200:   /usr/lib/jvm/java-6-sun-1.6.0.31/lib/i386
+2012-06-13 14:15:09.324+0200:   /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/i386/client
+2012-06-13 14:15:09.324+0200:   /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/i386
+2012-06-13 14:15:09.324+0200:   /home/mile/workspace2/jpf-core
+2012-06-13 14:15:09.325+0200:   /usr/java/packages/lib/i386
+2012-06-13 14:15:09.325+0200:   /lib
+2012-06-13 14:15:09.325+0200:   /usr/lib
+2012-06-13 14:15:09.328+0200: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-06-13 14:15:09.328+0200: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-06-13 14:15:09.329+0200: Memory Pool: Code Cache (Non-heap memory): committed=2.25 MB, used=441.50 kB, max=48.00 MB, threshold=0.00 B
+2012-06-13 14:15:09.329+0200: Memory Pool: PS Eden Space (Heap memory): committed=15.75 MB, used=7.76 MB, max=330.75 MB, threshold=?
+2012-06-13 14:15:09.330+0200: Memory Pool: PS Survivor Space (Heap memory): committed=2.63 MB, used=560.16 kB, max=2.63 MB, threshold=?
+2012-06-13 14:15:09.330+0200: Memory Pool: PS Old Gen (Heap memory): committed=42.00 MB, used=0.00 B, max=672.00 MB, threshold=0.00 B
+2012-06-13 14:15:09.330+0200: Memory Pool: PS Perm Gen (Non-heap memory): committed=16.00 MB, used=6.51 MB, max=64.00 MB, threshold=0.00 B
+2012-06-13 14:15:09.331+0200: VM Arguments: [-Dfile.encoding=UTF-8]
+2012-06-13 14:15:09.331+0200: System properties:
+2012-06-13 14:15:09.331+0200:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.31/jre/lib/i386
+2012-06-13 14:15:09.332+0200:   path.separator = :
+2012-06-13 14:15:09.332+0200:   file.encoding.pkg = sun.io
+2012-06-13 14:15:09.332+0200:   sun.java.launcher = SUN_STANDARD
+2012-06-13 14:15:09.332+0200:   user.country = US
+2012-06-13 14:15:09.332+0200:   sun.os.patch.level = unknown
+2012-06-13 14:15:09.332+0200:   user.dir = /home/mile/workspace2/jpf-core
+2012-06-13 14:15:09.332+0200:   sun.jnu.encoding = UTF-8
+2012-06-13 14:15:09.332+0200:   sun.management.compiler = HotSpot Tiered Compilers
+2012-06-13 14:15:09.332+0200:   user.home = /home/mile
+2012-06-13 14:15:09.332+0200:   user.timezone = Europe/Berlin
+2012-06-13 14:15:09.332+0200:   file.encoding = UTF-8
+2012-06-13 14:15:09.332+0200:   user.name = mile
+2012-06-13 14:15:09.332+0200:   sun.java.command = gov.nasa.jpf.JPF /home/mile/sut/TestPaths2.jpf
+2012-06-13 14:15:09.333+0200:   sun.arch.data.model = 32
+2012-06-13 14:15:09.333+0200:   user.language = en
+2012-06-13 14:15:09.333+0200:   file.separator = /
+2012-06-13 14:15:09.333+0200:   sun.io.unicode.encoding = UnicodeLittle
+2012-06-13 14:15:09.333+0200:   sun.cpu.endian = little
+2012-06-13 14:15:09.333+0200:   sun.desktop = gnome
+2012-06-13 14:15:09.333+0200:   sun.cpu.isalist = 
+2012-06-13 14:15:09.333+0200: Neo4j Kernel properties:
+2012-06-13 14:15:09.333+0200:   store_dir=dbTrace
+2012-06-13 14:15:09.333+0200:   logical_log=dbTrace/nioneo_logical.log
+2012-06-13 14:15:09.333+0200:   node_auto_indexing=false
+2012-06-13 14:15:09.333+0200:   neostore.relationshipstore.db.mapped_memory=100M
+2012-06-13 14:15:09.333+0200:   neostore.nodestore.db.mapped_memory=20M
+2012-06-13 14:15:09.333+0200:   use_memory_mapped_buffers=true
+2012-06-13 14:15:09.334+0200:   rebuild_idgenerators_fast=true
+2012-06-13 14:15:09.334+0200:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-06-13 14:15:09.334+0200:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-06-13 14:15:09.334+0200:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-06-13 14:15:09.334+0200:   neo_store=dbTrace/neostore
+2012-06-13 14:15:09.334+0200:   neostore.propertystore.db.index.mapped_memory=1M
+2012-06-13 14:15:09.334+0200:   create=true
+2012-06-13 14:15:09.334+0200:   neostore.propertystore.db.mapped_memory=90M
+2012-06-13 14:15:09.334+0200:   relationship_auto_indexing=false
+2012-06-13 14:15:09.334+0200: Storage files:
+2012-06-13 14:15:09.335+0200:   neostore.relationshiptypestore.db: 0.00 B
+2012-06-13 14:15:09.335+0200:   neostore.propertystore.db.index.keys: 38.00 B
+2012-06-13 14:15:09.335+0200:   nioneo_logical.log.active: 4.00 B
+2012-06-13 14:15:09.335+0200:   neostore.propertystore.db.strings: 128.00 B
+2012-06-13 14:15:09.335+0200:   tm_tx_log.1: 0.00 B
+2012-06-13 14:15:09.336+0200:   neostore.relationshipstore.db: 0.00 B
+2012-06-13 14:15:09.336+0200:   neostore.id: 9.00 B
+2012-06-13 14:15:09.336+0200:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-06-13 14:15:09.336+0200:   neostore.relationshiptypestore.db.names: 38.00 B
+2012-06-13 14:15:09.336+0200:   neostore.propertystore.db.arrays: 128.00 B
+2012-06-13 14:15:09.336+0200:   neostore.relationshipstore.db.id: 9.00 B
+2012-06-13 14:15:09.337+0200:   neostore.nodestore.db.id: 9.00 B
+2012-06-13 14:15:09.337+0200:   neostore.propertystore.db.index: 0.00 B
+2012-06-13 14:15:09.337+0200:   lock: 0.00 B
+2012-06-13 14:15:09.337+0200:   neostore.propertystore.db.strings.id: 9.00 B
+2012-06-13 14:15:09.337+0200:   neostore.propertystore.db.index.id: 9.00 B
+2012-06-13 14:15:09.337+0200:   nioneo_logical.log.1: 16.00 B
+2012-06-13 14:15:09.338+0200:   messages.log: 13.83 kB
+2012-06-13 14:15:09.338+0200:   neostore: 45.00 B
+2012-06-13 14:15:09.338+0200:   active_tx_log: 11.00 B
+2012-06-13 14:15:09.338+0200:   neostore.propertystore.db.id: 9.00 B
+2012-06-13 14:15:09.338+0200:   neostore.nodestore.db: 9.00 B
+2012-06-13 14:15:09.338+0200:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-06-13 14:15:09.339+0200:   neostore.propertystore.db: 0.00 B
+2012-06-13 14:15:09.339+0200:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-06-13 14:15:09.339+0200:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-06-13 14:15:09.339+0200: Id usage:
+2012-06-13 14:15:09.339+0200:   NodeStore: used=1 high=0
+2012-06-13 14:15:09.339+0200:   RelationshipStore: used=0 high=-1
+2012-06-13 14:15:09.340+0200:   RelationshipTypeStore: used=0 high=-1
+2012-06-13 14:15:09.340+0200:   PropertyStore: used=0 high=-1
+2012-06-13 14:15:09.340+0200:   PropertyIndexStore: used=0 high=-1
+2012-06-13 14:15:09.340+0200:   StringPropertyStore: used=1 high=0
+2012-06-13 14:15:09.340+0200:   ArrayPropertyStore: used=1 high=0
+2012-06-13 14:15:09.345+0200: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+  noop deadline [cfq] 
+
+2012-06-13 14:15:09.345+0200: --- CONFIGURATION END ---
+2012-06-13 14:15:10.732+0200: Closed log dbTrace/nioneo_logical.log
+2012-06-13 14:15:11.607+0200: NeoStore closed
+2012-06-13 14:15:11.608+0200: NeoStore closed
+2012-06-13 14:15:11.666+0200: TM shutting down
